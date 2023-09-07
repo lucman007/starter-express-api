@@ -1,22 +1,14 @@
 {
-  "name": "starter-express-api",
+  "name": "websocket",
   "version": "1.0.0",
-  "description": "",
+  "description": "websocket para facsy",
   "main": "index.js",
   "scripts": {
-    "start": "node index.js"
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/cyclic-software/starter-express-api.git"
-  },
-  "author": "",
+  "author": "Luciano Cespedes",
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/cyclic-software/starter-express-api/issues"
-  },
-  "homepage": "https://github.com/cyclic-software/starter-express-api#readme",
   "dependencies": {
-    "express": "^4.18.2"
+    "ws": "^8.14.0"
   }
 }
